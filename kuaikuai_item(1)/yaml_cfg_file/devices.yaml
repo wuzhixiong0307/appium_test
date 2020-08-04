@@ -1,0 +1,25 @@
+- desc: 设备_vivo,端口_4723
+  port: 4723
+  des:
+    platformName: Android
+    deviceName: 496ba836
+    udid: 496ba836
+    platformVersion: !!str 8.1.0
+    appPackage: com.tckk.kk
+    appActivity: com.tckk.kk.ui.start.SplashActivity
+    noReset: !!bool True    #强制转换数据类型
+    unicodeKeyboard: !!bool True
+    resetKeyboard: !!bool True
+
+- desc: 设备_leidian,端口_4725
+  port: 4725
+  des:
+    platformName: Android
+    deviceName: emulator-5554
+    udid: emulator-5554
+    platformVersion: !!str 5.1.1
+    appPackage: com.tckk.kk
+    appActivity: com.tckk.kk.ui.start.SplashActivity
+    noReset: !!bool True
+    unicodeKeyboard: !!bool True
+    resetKeyboard: !!bool True
